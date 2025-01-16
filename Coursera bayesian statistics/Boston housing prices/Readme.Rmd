@@ -1,0 +1,26 @@
+---
+title: "MCMC pet project: Predicting Housing Prices in Real Estate"
+output: html_document
+---
+
+## Objective
+Use MCMC to predict housing prices and identify key price determinants.
+
+## Dataset
+<a href="https://www.kaggle.com/datasets/mennatullahelzarqa/the-boston-housing-dataset">Boston Housing Dataset</a>
+
+## Business Question
+What are the key factors influencing housing prices, and how can we predict prices for new properties?
+
+## Steps
+
+1. *Preprocessing*: Handle missing values, scale numerical variables, and prepare the dataset for regression analysis.
+2. *Model Specification*: Use a Bayesian multiple regression model to predict housing prices based on features like room count, neighborhood quality, and proximity to amenities.
+3. *MCMC Implementation*: Fit the model using JAGS or Stan, capturing posterior distributions for all coefficients.
+4. *Analysis*: Compare Bayesian predictions with traditional regression estimates and identify credible intervals for key predictors.
+
+## Deliverables
+
+- Predicted housing prices for a test set of properties.
+- Insights into the most important factors influencing prices.
+
